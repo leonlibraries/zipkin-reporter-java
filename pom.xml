@@ -30,6 +30,7 @@
     <module>okhttp3</module>
     <module>libthrift</module>
     <module>benchmarks</module>
+    <module>zipkin-sender-kafka</module>
   </modules>
 
   <properties>
