@@ -20,7 +20,7 @@
     <parent>
         <artifactId>zipkin-reporter-parent</artifactId>
         <groupId>io.zipkin.reporter</groupId>
-        <version>0.6.10-SNAPSHOT</version>
+        <version>0.6.10.BM-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -39,6 +39,7 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>0.10.0.0</version>
+            <scope>provided</scope>
             <!-- don't eagerly bind slf4j -->
             <exclusions>
                 <exclusion>
